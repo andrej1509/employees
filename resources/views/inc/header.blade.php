@@ -6,6 +6,6 @@
 
     <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
         <a class="me-3 py-2 text-dark text-decoration-none" href="{{ route('home') }}">Страница отправки</a>
-        <a class="me-3 py-2 text-dark text-decoration-none" href="{{ route('contacts') }}">Страница получения</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="{{ route('contact-data') }}">Страница получения</a>
     </nav>
 </div>

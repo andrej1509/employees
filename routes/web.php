@@ -5,6 +5,6 @@ Route::get('/', function () {
 })->name('home');
 
 
-Route::get('/contacts', function () {
-    return view('contacts');
-})->name('contacts');
+Route::get('/contacts/all/{id}', 'ContactController@showOneMessage')->name('contact-data-one');
+Route::get('/contacts/all', 'ContactController@allData')->name('contact-data');
+Route::post('/submit', 'ContactController@submit')->name('contact-form');

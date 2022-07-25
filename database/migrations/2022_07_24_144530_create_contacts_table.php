@@ -20,7 +20,7 @@ class CreateContactsTable extends Migration
             $table->smallInteger('age');
             $table->smallInteger('experience');
             $table->text('photo');
-            $table->smallInteger('salary');
+            $table->bigInteger('salary');
             $table->timestamps();
         });
     }

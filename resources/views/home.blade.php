@@ -5,7 +5,7 @@
 @section('content')
     <h1></h1>
 
-    <form action="" method="post">
+    <form action="{{ route('contact-form') }}" enctype="multipart/form-data" method="post">
         @csrf
         <div class="form-group">
             <label for="email">Email</label>
